@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(226, 224, 224);
+  color: black;
+  overflow-x: hidden;
+}
+
+.container{
+  width: 950px;
+  margin: auto;
+}
+
+header{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(198, 197, 197);
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+nav a {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(100, 96, 96);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.info h4 {
+  margin: 15px;
+  margin-left: 5px;
+  color: rgb(100, 96, 96);
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone img {
+  padding-top: 17px;
+  width: 15px;
+  height: 15px;
+}
+
+#grid{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(198, 197, 197);
+
+}
+
+.cars{
+  width: 160px;
+  height: 160px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(198, 197, 197);
+}
+
+figcaption {
+  width: 160px;
+  color: rgb(100, 96, 96);
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 15px;
+  color: rgb(100, 96, 96);
+}
+
+.people {
+margin-left: 25px;
+}
+
+.people p {
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.links section {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.links a img {
+  width: 25px;
+  height: 25px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(100, 96, 96);
+}
+
+.links a h4 {
+  margin-left: 10px;
+  color: rgb(100, 96, 96);
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media(max-width:1080px){
+ .container{width: 87%;}
+}
+
+@media(max-width:768px){
+  #main{width: 95%;}
+  .img{width: 100%;}
+  header{
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+@media(max-width:480px){
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
